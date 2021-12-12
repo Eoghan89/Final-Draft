@@ -1,0 +1,149 @@
+/* Add a black background color to the top navigation */
+body{
+ 
+ 
+
+}
+
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 9px 150px;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(246, 225, 243);
+    color: black;
+  }
+.main-mid{
+    text-align: center;
+}
+
+.bio-container{
+  padding-left: 60%;
+  text-align: center;
+}
+.row-main{
+
+  background-color: #d16ff8;
+
+}
+  
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(136, 32, 119);
+    color: white;
+  }
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #d16ff8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #3e0655;
+  
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ecd7d7;
+  padding: 20px;
+}
+.container-wide {
+ 
+  position: relative;
+  text-align: center;
+  color: white;
+  /* border-radius: 5px;*/
+  /* background-color: #502727;  */
+  /* padding: 20px; */
+}
+.centered-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+  .footer {
+    position: fixed;
+    height: 70px;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(136, 32, 119);
+    color: white;
+    text-align: center;
+ }
+
+@media screen and (max-width: 800px) {
+  .topnav a{
+    /* color: #f2f2f2;
+    display: block;
+    
+    padding: 1px 5px; */
+  /* display: block;
+ 
+  
+ 
+  text-decoration: none;
+  font-size: 17px;  */
+  text-align: center;
+  width: 100%;
+  }
+  .main-mid {
+    
+  }
+  .container-wide img{
+    display:none;
+  }
+  .container{}
+  .footer{
+    height: 50px;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+  .main-mid {
+    display:none;
+  }
+  .container-wide img{
+    width: 400px;
+    height: 400px;
+  }
+  .footer{
+    height: 100px;
+  }
+}
+
